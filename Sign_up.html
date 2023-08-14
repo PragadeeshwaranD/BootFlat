@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        .form1{
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            display:flex;
+            /* border:2px solid red; */
+        }
+        form{
+            border:2px solid red;
+            width:60%;
+            font-size: 2vw;
+            text-align: center;
+            background-color: antiquewhite;
+            padding:5%
+        }
+        label,input{
+            background-color: antiquewhite;
+        }
+        .label1{
+            margin-right: 21%;
+        }
+        .label2{
+            margin-right: 21%;
+        }
+        .label3{
+            margin-right: 16%;
+        }
+        .label4{
+            margin-right: 4%;
+        }
+        input{
+            font-size: 2vw;;
+        }
+        .button{
+            background-color: blue;
+            color:white;
+            border-radius: 10%;
+            padding:1%
+        }
+    </style>
+    <script>
+        function check1(){
+            alert("Register Successfully...");
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <div><img src="./logo.jpg"></div>
+                <div class="flat">BootFlat</div></div>
+            <div class="items">
+                    <div class="com"><a href="./index.html">Home</a></div>
+                    <div class="com"><a href="./Sign_In.html">Sign_In</a></div>
+                    <div class="com"><a href="./Sign_up.html">Sign_up</a></div>
+                    <div class="com"><a href="./Contact.html">Contact</a></div>
+            </div>
+        </div>
+
+        <!-- Sign_up -->
+
+        <div class="Sign_up">
+            <div class="form1">
+                <form action="./signup.html">
+                    <label class="label1">Name:</label><input type="text" required><br><br>
+                    <label class="label2">Email:</label><input type="email" required><br><br>
+                    <label class="label3">Password:</label><input type="password" required><br><br>
+                    <label class="label4">conform Password:</label><input type="password" required><br><br>
+                    <input class="button" onclick="check1()" type="submit" value="Register">
+                </form>
+            </div>
+        </div>
+
+</body>
+</html>

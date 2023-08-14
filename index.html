@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+         *{
+            margin:0;
+            padding:0;
+            background-color: #071952;
+         }
+         .container{
+            height:100vh;
+         }
+
+          /* header */
+         .nav{
+            display:flex;
+            justify-content: space-between;
+            height:10%;
+            align-items: center;
+            /* border:2px solid blue; */
+         }
+         .logo{
+            display:flex;
+            gap:10%;
+            color:white;
+            align-items: center;
+         }
+         .items{
+            display:flex;
+            gap:5%;
+            position: relative;
+            left:-5%;
+         }
+         img{
+            margin-left: 20%;
+            width:30px;
+            height:30px;
+         }
+         .com>a{
+            color:black;
+            text-decoration: none;
+            color:white;
+            font-size: 2vw;
+         }
+         .flat{
+            font-size: 2vw;
+         }
+         .main{
+            display:grid;
+            grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+            grid-template-rows: repeat(auto,1fr);
+            gap:4%;
+            justify-items: center;
+            margin-top:10%;
+            font-size: 3vw;
+         }
+         .item1{
+            background-color:pink;
+            padding:10%;
+         }
+         .item1>p{
+            background-color:pink;
+         }
+         .item1>img{
+            width:11vw;
+            height:9vw;
+            margin-left: 10%;
+         }
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BootFlat</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="logo">
+                <div><img src="./logo.jpg"></div>
+                <div class="flat">BootFlat</div></div>
+            <div class="items">
+                    <div class="com"><a href="./index.html">Home</a></div>
+                    <div class="com"><a href="./Sign_In.html">Sign_In</a></div>
+                    <div class="com"><a href="./Sign_up.html">Sign_up</a></div>
+                    <div class="com"><a href="./Contact.html">Contact</a></div>
+            </div>
+        </div><br>
+
+        <!-- main -->
+        <div class="main">
+         <div class="item-1 item1">
+            <img src="./image/Screenshot (180).png">
+            <p>Gadar-2</p>
+            <p>Review: 3.5</p>
+         </div>
+         <div class="item-2 item1">
+            <img src="./image/Screenshot (182).png">
+            <p>Jailer</p>
+            <p>Review: 4.5</p>
+         </div>
+         <div class="item-3 item1">
+            <img src="./image/Screenshot (183).png">
+            <p>DD Returns</p>
+            <p>Review: 3.0</p>
+         </div>
+         <div class="item-4 item1">
+            <img src="./image/Screenshot (184).png">
+            <p>LGM</p>
+            <p>Review: 2.5</p>
+         </div>
+        </div>
+
+       
+    </div>
+</body>
+</html>
